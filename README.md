@@ -1,3 +1,17 @@
+## Second Part of the TODO list, adding fetch
+
+Fecht is the way to be able to connect the web application to an API, in this way you can work with a database to save depending on the project, data, or progress of it.
+
+The purpose of the project is to be able to connect the Todo list to an API to be able to save the tasks that are entered in it, using `GET` we can specify in the code where the data entered through an API URL will be directed, access to a resource and the `PUT` to replace the state of the information already existing in the system.
+
+Recommended websites for theme icons, style and tools:
+
+[-Bootstrap](https://getbootstrap.com/).
+
+[-Fontawesome](https://fontawesome.com/).
+
+[-CSS gradient](https://cssgradient.io/).
+
 # Hello World with React boilerplate
 <p>
   <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
