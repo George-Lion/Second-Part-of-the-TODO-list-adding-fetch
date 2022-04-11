@@ -10,3 +10,114 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background: linear-gradient(90deg, rgba(29, 28, 59, 1) 0%, rgba(46, 16, 87, 1) 100%, rgba(9, 9, 121, 1) 100%, rgba(24, 42, 46, 1) 100%);
+}
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #36D1DC 0%, #5B86E5 51%, #36D1DC 100%)
+}
+
+.btn-grad {
+    width: 60px;
+    height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 10px 10px 0px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.title {
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 15px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 215px;
+}
+
+.add {
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    width: 380px;
+
+}
+
+.validacion {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.caja {
+    width: 500px;
+    padding-left: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.caja2 {
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+
+}
+
+input {
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 243px;
+    padding-left: 10px;
+
+}
+
+.tarea {
+    margin: 0px 30px 0px 20px;
+    display: grid;
+    grid-template-columns: 3fr 0fr;
+    color: white;
+    height: 25px;
+
+}
+
+.fas {
+    opacity: 0;
+}
+
+.boxtarea {
+    background-color: rgba(73, 73, 73, 0.9);
+    margin-bottom: 5px;
+    border-radius: 5px;
+
+}
+
+.boxtarea:hover .fas {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.boxtarea:hover {
+    background-image: linear-gradient(to right, #36D1DC 0%, #5B86E5 51%, #36D1DC 100%)
+}
+
+.num {
+    margin-top: 10px;
+    padding: 6px;
+}
